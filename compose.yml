@@ -1,0 +1,19 @@
+services:
+
+  frontend:
+    container_name: next-js
+    build:
+      context: ./next-js
+      dockerfile: Dockerfile
+    volumes:
+      - ./next-js:/app
+      - /app/node_modules 
+    environment:
+      - NODE_ENV=development 
+    ports:
+      - "3000:3000"
+    command: npm run dev
+
+volumes:
+  db_data: 
+  
