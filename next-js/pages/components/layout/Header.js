@@ -2,20 +2,24 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 mb-4">
-        <ul className="flex p-2 justify-center">
-          <li className="header-item">
-            <Link href={`/`}>
-            <img className="logo" src="images/logo.png"></img>
+    <header className="mb-3 border-b border-zinc-800 ">
+        <ul className="flex p-3 justify-around items-center">
+          <li>
+            <Link className="flex items-center" href={`/`}>
+              <img
+                className="logo"
+                src="images/logo.png"
+              ></img>
+              <span className="text-4xl text-decoration-none font-black">BTK</span>
             </Link>
           </li>
-          <li className="header-item"> 
-            <Link href={"/components"}>componentler</Link>
+          <li className="flex ">
+            <Link className="header-item" href={"/components"}>componentler</Link>
+            <Link className="header-item" href={"/components"}>componentler</Link>
+            <Link className="header-item" href={"/components"}>componentler</Link>
+            <Link className="header-item" href={"/components"}>componentler</Link>
+            
           </li>
-          <li className="header-item">Hakkında</li>
-          <li className="header-item">Hakkında</li>
-          <li className="header-item">Hakkında</li>
-          <li className="header-item">Hakkında</li>
         </ul>
     </header>
   );
