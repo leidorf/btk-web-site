@@ -32,9 +32,9 @@ const Footer = () => {
             </Link>
             <Link
               className="footer-item"
-              href={`/components`}
+              href={"/vizyon_misyon"}
             >
-              componentler
+              Vizyon ve Misyon
             </Link>
             <Link
               className="footer-item"
