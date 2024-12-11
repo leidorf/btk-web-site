@@ -33,3 +33,14 @@ body {
 .footer-item{
   @apply mr-4 text-zinc-600 hover:text-zinc-300 transition-colors duration-300 ease-in-out;
 }
+.animate{
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}

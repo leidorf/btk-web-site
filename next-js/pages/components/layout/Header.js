@@ -16,7 +16,7 @@ const Header = () => {
           <li className="flex ">
             <Link className="header-item" href={"/components"}>componentler</Link>
             <Link className="header-item" href={"/components"}>componentler</Link>
-            <Link className="header-item" href={"/components"}>componentler</Link>
+            <Link className="header-item" href={"/vizyon_misyon"}>Vizyon ve Misyon</Link>
             <Link className="header-item" href={"/components"}>componentler</Link>
             
           </li>
