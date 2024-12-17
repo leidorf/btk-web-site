@@ -59,9 +59,9 @@ const Header = () => {
           <li>
             <Link
               className="header-item"
-              href={"/components"}
+              href={"/about"}
             >
-              componentler
+             Hakkımızda
             </Link>
           </li>
         </ul>
