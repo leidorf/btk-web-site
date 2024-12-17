@@ -50,9 +50,9 @@ const Footer = () => {
           <li>
             <Link
               className="footer-item"
-              href={`/components`}
+              href={`/about`}
             >
-              componentler
+              Hakkımızda
             </Link>
           </li>
         </ul>
