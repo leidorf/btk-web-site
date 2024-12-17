@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* THEMES WILL BE ADDED IN FUTURE 
+  --background: #ffffff;
+  --foreground: #0f0f0f; */
+  --background: #0f0f0f;
+  --foreground: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f0f0f;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: auto;
+  height: 3.25rem;
+}
+
+.header-item {
+  @apply mr-4 text-zinc-300 hover:underline underline-offset-4 decoration-zinc-600 tracking-normal hover:tracking-wider transition-all duration-300 ease-in-out;
+}
+
+.header-hamburger{
+  @apply block p-2 text-white hover:bg-zinc-700 rounded;
+}
+
+.footer-item {
+  @apply text-zinc-600 hover:text-zinc-300 transition-colors duration-300 ease-in-out;
+}
+
+.animate {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
