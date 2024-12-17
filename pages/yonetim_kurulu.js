@@ -25,7 +25,7 @@ const YonetimKurulu = () => {
                   alt="yonetim-kurulu-image"
                   width={50}
                   height={50}
-                  className=" w-[30%] overflow-hidden text-center "
+                  className="w-[30%] overflow-hidden text-center "
                 />
               }
               <p className="font-semibold text-lg text-[#e0e0e0]">
