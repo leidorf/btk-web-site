@@ -35,9 +35,9 @@ const Header = () => {
           <li>
             <Link
               className="header-item"
-              href={"/components"}
+              href={"/yonetim_kurulu"}
             >
-              componentler
+              Yönetim Kurulu
             </Link>
           </li>
           <li>
