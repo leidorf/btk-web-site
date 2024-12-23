@@ -29,7 +29,7 @@ body {
 }
 
 .header-item {
-  @apply mr-4 text-zinc-300 hover:underline underline-offset-4 decoration-zinc-600 tracking-normal hover:tracking-wider transition-all duration-300 ease-in-out;
+  @apply mr-4 text-zinc-300 hover:underline underline-offset-4 decoration-[#ff7f50] tracking-normal hover:tracking-wider transition-all duration-300 ease-in-out;
 }
 
 .header-hamburger{

@@ -26,9 +26,9 @@ const Footer = () => {
           <li>
             <Link
               className="footer-item"
-              href={`/components`}
+              href={`/yonetim_kurulu`}
             >
-              componentler
+              Yönetim Kurulu
             </Link>
           </li>
           <li>
