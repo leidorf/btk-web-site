@@ -61,21 +61,30 @@ const Header = () => {
               className="header-item"
               href={"/about"}
             >
-             Hakkımızda
+              Hakkımızda
             </Link>
           </li>
         </ul>
       </div>
 
       {menuOpen && (
-        <ul className="flex flex-col gap-4 p-3 md:hidden border-t border-zinc-800 text-right">
+        <ul className="flex flex-col gap-4 p-3 md:hidden border-t border-zinc-800 text-center">
           <li>
             <Link
               className="header-hamburger"
-              href={"/components"}
+              href={"/"}
               onClick={() => setMenuOpen(false)}
             >
-              componentler
+              Ana Sayfa
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="header-hamburger"
+              href={"/yonetim_kurulu"}
+              onClick={() => setMenuOpen(false)}
+            >
+              Yönetim Kurulu
             </Link>
           </li>
           <li>
@@ -99,10 +108,10 @@ const Header = () => {
           <li>
             <Link
               className="header-hamburger"
-              href={"/components"}
+              href={"/about"}
               onClick={() => setMenuOpen(false)}
             >
-              componentler
+              Hakkımızda
             </Link>
           </li>
         </ul>

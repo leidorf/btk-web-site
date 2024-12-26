@@ -9,7 +9,12 @@ export default function Home() {
         <PageHead />
         <div className="text-center">
           <div className="text-3xl">BTK WEB SITE</div>
-          <Link href={`/components`}>componentler</Link>
+          <div className="flex flex-col gap-2">
+          <Link href={`/yonetim_kurulu`}>Yönetim Kurulu</Link>
+          <Link href={`/contact`}>İletişim</Link>
+          <Link href={`/vizyon_misyon`}>Vizon ve Misyon</Link>
+          <Link href={`/about`}>Hakkımızda</Link>
+          </div>
         </div>
       </Layout>
     </>
